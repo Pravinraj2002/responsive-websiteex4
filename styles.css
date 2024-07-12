@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00458A;
+}
+
+.container h1 {
+    color: #FFFFFF;
+    padding: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.price-row {
+    width: 90%;
+    max-width: 1100px;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+}
+
+.pricing-col {
+    background-color: #FFFFFF;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #6F6F6F;
+}
+
+.pricing-col h2 {
+    font-size: 22px;
+}
+
+.pricing-col h3 {
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.pricing-col h3 span {
+    font-size: 16px;
+}
+
+.pricing-col ul {
+    margin: 20px;
+    color: #6F6F6F;
+    text-align: left;
+    list-style: none;
+    
+}
+
+.pricing-col ul li {
+    margin: 15px 0;
+        text-align: center;
+
+    
+}
+.pricing-col button{
+    width: 100%;
+    padding: 14px 0;
+    background-color: #007AFE;
+    font-size: 15px;
+    border: 1px solid #007AFE  ;
+    border-radius: 100px;
+    cursor: pointer;
+
+
+
+}
+.pricing-col button:hover{
+    background: #FF0054;
+
+}
+
